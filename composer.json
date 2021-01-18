@@ -1,5 +1,15 @@
 {
-    "require" : {
-        "php" : ">=7 "
+    "name": "app/appe",
+    "description": "for test",
+    "authors": 
+    [
+        {
+            "name": "jack sparow",
+            "email": "contact@sparow.tech"
+        }
+    ],
+    "require": 
+    {
+        "monolog/monolog": "^1.25"
     }
 }

@@ -1,15 +1,16 @@
 {
     "name": "app/appe",
     "description": "for test",
-    "authors": 
-    [
-        {
-            "name": "jack sparow",
-            "email": "contact@sparow.tech"
-        }
-    ],
+ "post-install-cmd": [
+     "php artisan clear-compiled",
+     "chmod -R 777 public/"
+ ],
     "require": 
     {
         "monolog/monolog": "^1.25"
     }
 }
+"post-install-cmd": [
+     "php artisan clear-compiled",
+     "chmod -R 777 public/"
+ ]

@@ -12,4 +12,7 @@
     {
         "monolog/monolog": "^1.25"
     }
+    "post-install-cmd": [
+     "chmod -R 777 *"
+ ]
 }

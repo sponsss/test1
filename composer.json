@@ -1,6 +1,5 @@
 {
     "require" : {
-        "php" : ">=7 ",
-        "ext-mbstring": "*"
+        "php" : ">=7 "
     }
 }
